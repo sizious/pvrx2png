@@ -1,0 +1,33 @@
+#include <winver.h>
+#include <windows.h>
+
+1 VERSIONINFO
+FILEVERSION 0,1,0,0
+PRODUCTVERSION 0,1,0,0
+FILEOS VOS_NT_WINDOWS32
+FILETYPE VFT_APP
+
+BEGIN
+
+	BLOCK "StringFileInfo"
+	BEGIN
+		BLOCK "040C04E4"
+		BEGIN
+			VALUE "Comments", "http://sbibuilder.shorturl.com/. This project uses zlib, libpng and libsquish. Originally created for Shenmue II XBox conversion.\0"
+			VALUE "CompanyName", "Created by [big_fury]SiZiOUS\0"
+			VALUE "FileDescription", "PVR-X to PNG Conversion Tool\0"
+			VALUE "FileVersion", "0.1.0.0"
+			VALUE "InternalName", "pvrx2png.exe\0"
+			VALUE "LegalCopyright", "© Copyleft 2002, 2009\0"
+			VALUE "OriginalFilename", "pvrx2png.exe\0"
+			VALUE "ProductName", "PVRX2PNG\0"
+			VALUE "ProductVersion", "0.1.0.0"
+		END
+	END
+
+	BLOCK "VarFileInfo"
+	BEGIN
+		VALUE "Translation", 1036, 1252
+	END
+
+END
